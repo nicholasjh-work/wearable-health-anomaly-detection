@@ -28,7 +28,20 @@ End-to-end wearable biometric data pipeline built on Databricks. Ingests real se
 - **Strain scoring (0-10):** Running 8.9, jogging 5.6, walking 1.9, sedentary <1.0
 - **HRV proxy:** 5x variation across subjects (0.036 to 0.188 SDNN)
 - **Anomaly detection:** Isolation Forest v1 vs v2 with A/B evaluation (paired t-test, Cohen's d, Ship/Iterate/Kill framework)
-- **Recovery windows:** Automatic detection of rest periods with recovery quality scoring
+
+---
+
+### Results
+
+![Strain by Activity](strain_by_activity.png)
+
+![Activity Classification](confusion_matrix.png)
+
+![HRV by Subject](hrv_by_subject.png)
+
+![Strain vs HRV](strain_vs_hrv.png)
+
+![Anomaly Detection A/B](anomaly_ab.png)
 
 ---
 
